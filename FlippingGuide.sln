@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlippingGuide", "FlippingGuide\FlippingGuide.csproj", "{E7375978-2B6B-412A-A875-823DEE035194}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NinjaData", "NinjaData\NinjaData.csproj", "{49754CBA-5821-43A1-A0D4-B0D9631A3F4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E7375978-2B6B-412A-A875-823DEE035194}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7375978-2B6B-412A-A875-823DEE035194}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7375978-2B6B-412A-A875-823DEE035194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49754CBA-5821-43A1-A0D4-B0D9631A3F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49754CBA-5821-43A1-A0D4-B0D9631A3F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49754CBA-5821-43A1-A0D4-B0D9631A3F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49754CBA-5821-43A1-A0D4-B0D9631A3F4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

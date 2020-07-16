@@ -1,12 +1,20 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.CompilerServices;
+using NinjaData;
+using System;
+using System.Collections.Generic;
+using System.Net.Http;
+using System.Threading.Tasks;
 
 namespace FlippingGuide
 {
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ApiHelper.InitializeClient();
+            var listing = await PriceProcessor.LoadData();
+            Console.WriteLine(listing.Lines[0].CurrencyTypeName);
+            Console.WriteLine(listing.Lines[0].chaosEquivalent);
         }
     }
 }
