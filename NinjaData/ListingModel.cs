@@ -6,9 +6,7 @@ namespace NinjaData
 {
     public class ListingModel
     {
-        public int Test { get; set; }
-        public string CurrencyTypeName { get; set; }
-        public Fragment[] Lines { get; set; }
+        public List<Fragment> Lines { get; set; }
     }
 
     public class Fragment
